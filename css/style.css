@@ -4,6 +4,8 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 body::before {
@@ -37,6 +39,7 @@ ul li {
   background-color: #1e2e5a;
   background-size: cover;
   position: relative;
+  overflow-wrap: normal;
 }
 
 #landing::before {
@@ -76,10 +79,20 @@ ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.25rem;
 }
 
 #landing .imageName .caption {
   padding-left: 10px;
+}
+
+#landing .nav-link {
+  font-size: 2rem;
+}
+
+#landing .about {
+  margin-top: 100px;
+  overflow-wrap: normal;
 }
 
 #landing h1 {
@@ -110,6 +123,21 @@ ul li {
 
 #landing .btn-scroll:hover {
   color: #ffa600;
+}
+
+#landing .navbar {
+  background-color: black;
+}
+
+#landing .project-item .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .skills .progress {
