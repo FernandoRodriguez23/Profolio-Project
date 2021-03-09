@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -87,8 +87,13 @@ ul li {
   padding-left: 10px;
 }
 
+#landing .imageName .caption .link-item {
+  font-family: fantasy;
+}
+
 #landing .nav-link {
   font-size: 2rem;
+  font-family: fantasy;
 }
 
 #landing .about {
@@ -147,6 +152,12 @@ ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+#landing .project-title {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 2.2rem;
 }
 
 .skills-container {

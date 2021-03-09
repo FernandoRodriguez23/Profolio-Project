@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #040404;
     color: #fff;
     position: relative;
@@ -71,11 +71,15 @@ ul{
         align-items: center;
         .caption{
             padding-left: 10px;
+            .link-item{
+                font-family: fantasy;
+            }
         }
         font-size: 1.25rem;
     }
     .nav-link{
         font-size: 2rem;
+        font-family: fantasy;
     }
     .about{
         margin-top: 100px;
@@ -122,6 +126,11 @@ ul{
     }
     .recent-projects{
         display: flex;
+    }
+    .project-title{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 2.2rem;
     }
 }
 
