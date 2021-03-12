@@ -195,15 +195,13 @@ ul li {
 }
 
 .skills-container .progress-bar-wrap {
-  background: #040404;
+  background: #fff;
 }
 
 .skills-container .progress-bar {
   height: 10px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 0.925)), to(#ffa600));
   background: linear-gradient(to right, rgba(255, 0, 0, 0.925), #ffa600);
-  -webkit-box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.925);
-          box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.925);
 }
 
 .resume {

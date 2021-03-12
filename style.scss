@@ -168,13 +168,12 @@ ul{
     }
 
     .progress-bar-wrap{
-        background: #040404;
+        background: #fff;
     }
 
     .progress-bar{
         height: 10px;
         background: linear-gradient(to right, $primary-color, $secondary-color);
-        box-shadow: 3px 3px 3px $primary-color;
     }
 }
 
